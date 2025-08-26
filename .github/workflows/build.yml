@@ -1,7 +1,7 @@
 name: Build_APK
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   build-android:
