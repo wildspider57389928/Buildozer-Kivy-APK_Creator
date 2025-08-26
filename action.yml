@@ -1,1 +1,16 @@
+name: "Buildozer-Kivy-Apk-Creator"
+description: "Use Buildozer To Make Apk With Kivy"
+author: "Bardia"
 
+inputs:
+  project-dir:
+    description: "Building Directory"
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Call build workflow
+      uses: ./.github/workflows/build.yml
+      with:
+        project-dir: ${{ inputs.project-dir }
