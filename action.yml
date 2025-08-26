@@ -1,5 +1,5 @@
 name: "Buildozer-Kivy-Apk-Creator"
-description: "Use Buildozer To Make Apk With Kivy"
+description: "Use Buildozer To Make Apk From Kivy Framework (Python)"
 author: "wildspider57389928"
 branding:
   icon: "archive"
