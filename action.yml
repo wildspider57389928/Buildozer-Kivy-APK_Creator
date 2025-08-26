@@ -1,7 +1,9 @@
 name: "Buildozer-Kivy-Apk-Creator"
 description: "Use Buildozer To Make Apk With Kivy"
 author: "Bardia"
-
+branding:
+  icon: "archive"
+  color: "blue"
 inputs:
   project-dir:
     description: "Building Directory"
