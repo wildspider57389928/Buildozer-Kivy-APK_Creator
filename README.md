@@ -46,6 +46,9 @@ jobs:
         
       - name: Buildozer-Kivy-Apk-Creator
         uses: wildspider57389928/Buildozer-Kivy-APK_Creator@4.0.0
+        with:
+          project-dir: .
+          command: buildozer android debug
 ```
 ---
 
