@@ -2,7 +2,11 @@ name: Build_APK
 
 on:
   workflow_call:
-
+    inputs:
+      project-dir:
+        required: true
+        type: string
+        default: .
 jobs:
   build-android:
     runs-on: ubuntu-latest
